@@ -82,7 +82,7 @@ class ArticlesList extends React.Component<Props, {}> {
       self.props.articlesFetch();
       self.interval = setInterval(function(){
         self.props.articlesFetch(); },
-        3000)
+        30000)
 
     }
 
